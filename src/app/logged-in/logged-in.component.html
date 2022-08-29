@@ -1,5 +1,4 @@
-<p *ngIf="token_received;else elseNotReceived">Token received</p>
+<p *ngIf="token_received; else elseNotReceived">Token received</p>
 <ng-template #elseNotReceived>
-    <p>Something went wrong</p>
     <app-login-btn></app-login-btn>
 </ng-template>
